@@ -1,3 +1,7 @@
 __pycache__
 *.deb
 *.rpm
+<<<<<<< HEAD
+=======
+.idea
+>>>>>>> b0a3251... Merge

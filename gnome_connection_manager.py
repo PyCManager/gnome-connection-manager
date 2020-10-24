@@ -2167,7 +2167,7 @@ class Wmain(SimpleGladeApp):
                         if h.startswith(group+'/'):
                             del groups[h]
                     self.updateTree()
-        self.writeConfig()                    
+        self.writeConfig()
     #-- Wmain.on_btnDel_clicked }
 
     #-- Wmain.on_btnHSplit_clicked {
