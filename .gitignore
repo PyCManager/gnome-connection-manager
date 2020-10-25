@@ -1,7 +1,6 @@
 __pycache__
+.idea
+
 *.deb
 *.rpm
-<<<<<<< HEAD
-=======
-.idea
->>>>>>> b0a3251... Merge
+*.glade~
