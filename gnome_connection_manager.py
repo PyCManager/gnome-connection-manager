@@ -3328,6 +3328,7 @@ class MultilineCellRenderer(Gtk.CellRendererText):
 
 
 from threading import Thread
+
 class CheckUpdates(Thread):
     
     def __init__(self, p):
@@ -3356,14 +3357,11 @@ class CheckUpdates(Thread):
         except Exception as e:            
             pass
 
-#-- main {
 
 def main():
     w_main = Wmain()
     w_main.run()
 
+
 if __name__ == "__main__":
     main()
-
-#-- main }
-
